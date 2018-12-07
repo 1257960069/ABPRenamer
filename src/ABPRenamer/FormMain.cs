@@ -264,7 +264,7 @@ namespace ABPRenamer
                         text = text.Replace(arguments.OldCompanyName, arguments.NewCompanyName);
                     }
 
-                    text = text.Replace(arguments.OldProjectName, arguments.OldProjectName);
+                    text = text.Replace(arguments.OldProjectName, arguments.NewPeojectName);
 
                     if (item.Name.Contains(arguments.OldCompanyName) || item.Name.Contains(arguments.OldProjectName))
                     {

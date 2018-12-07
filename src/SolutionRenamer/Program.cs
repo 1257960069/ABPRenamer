@@ -57,7 +57,7 @@ namespace SolutionRenamer
 	        var newPeojectName = Console.ReadLine();
 	        if (string.IsNullOrEmpty(newPeojectName))
 	        {
-		        newPeojectName = "SHMLProject";
+		        newPeojectName = "SHML";
 	        }
 
 
